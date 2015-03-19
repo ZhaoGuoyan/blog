@@ -1,0 +1,46 @@
+#main-1{
+
+	background: #52bea6;
+	height: 650px;
+}
+#main-1 .my-pic{
+	border:10px  white solid;	
+	border-radius: 50%;
+	display:block;
+	position: relative;
+	top: 120px;
+	margin: auto;
+}
+
+#main-1 .msg{
+	display: inline-block;
+	position: relative;
+	left: 440px;
+	top: 130px;
+}
+#main-1 .msg .msg-left{
+	display: block;
+	margin-left: 110px;
+}
+
+#main-1 .msg .msg-mid {
+	position: relative;
+	top: 13px;
+	background-color: rgb(255, 255, 255);
+	width: 2px;
+	height: 160px;
+}
+
+#main-1 .msg .msg-right {
+
+	position: relative;
+	bottom: 15px;
+	right: 10px;
+ 	font-size: 20px;
+ 	font-family: "Century Gothic", "STXihei";
+ 	color: rgb(255, 255, 255);
+ 	text-align: left;
+ 	line-height: 1;
+ 	letter-spacing: 1px;
+ 	list-style-type: none;
+}
