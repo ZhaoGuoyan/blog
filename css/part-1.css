@@ -1,9 +1,9 @@
-#main-1{
+#home{
 
 	background: #52bea6;
 	height: 650px;
 }
-#main-1 .my-pic{
+#home .my-pic{
 	border:10px  white solid;	
 	border-radius: 50%;
 	display:block;
@@ -12,18 +12,18 @@
 	margin: auto;
 }
 
-#main-1 .msg{
+#home .msg{
 	display: inline-block;
 	position: relative;
 	left: 440px;
 	top: 130px;
 }
-#main-1 .msg .msg-left{
+#home .msg .msg-left{
 	display: block;
 	margin-left: 110px;
 }
 
-#main-1 .msg .msg-mid {
+#home .msg .msg-mid {
 	position: relative;
 	top: 13px;
 	background-color: rgb(255, 255, 255);
@@ -31,7 +31,7 @@
 	height: 160px;
 }
 
-#main-1 .msg .msg-right {
+#home .msg .msg-right {
 
 	position: relative;
 	bottom: 15px;
@@ -43,4 +43,12 @@
  	line-height: 1;
  	letter-spacing: 1px;
  	list-style-type: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
 }
