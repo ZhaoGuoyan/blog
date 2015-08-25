@@ -10,6 +10,7 @@
 // version 1.1.1
 
 function ColorFinder(colorFactorCallback) {
+  
   this.callback = colorFactorCallback;
   this.getMostProminentColor = function(imgEl) {
     var rgb = null;
@@ -19,7 +20,8 @@ function ColorFinder(colorFactorCallback) {
     rgb = this.getMostProminentRGBImpl(data, 4, rgb, this.callback);
     rgb = this.getMostProminentRGBImpl(data, 2, rgb, this.callback);
     rgb = this.getMostProminentRGBImpl(data, 0, rgb, this.callback);
-    return rgb;
+   
+  return rgb;
   };
 
   this.getImageData = function(imgEl, degrade, rgbMatch, colorFactorCallback) {
